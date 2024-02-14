@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: tophu
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/isce-framework/tophu/archive/v{{ version }}.tar.gz
-  sha256: f1185ffc5f5cfbb7fb85ee7f5b0c42d2ba96824b2ec148926b6662b2036f3683
+  sha256: ecc02587b964bcbab19b23455f21a68b64c063d7f43c0bf54f2f38dd422af27d
 
 build:
   noarch: python
